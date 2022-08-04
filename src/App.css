@@ -1,9 +1,19 @@
 .App {
   text-align: center;
-  width: 100vw;
-  height: 100vh;
+
+  min-width: 80vw;
+  max-width: 1000px;
+  margin: auto;
   overflow-x: hidden;
-  background: #f4e6ff;
-  display: flex;
+  background: #f1fef2;
+  padding: 3rem;
+}
+.expenses {
+  background-color: #f1fef2;
+  border-radius: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0 2rem #777;
+  display: grid;
   justify-content: center;
+  align-items: center;
 }

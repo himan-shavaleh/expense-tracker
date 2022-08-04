@@ -1,0 +1,15 @@
+.expenceItem {
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.expenceItem .card {
+  background: #73a7c2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expenceItem .card .right {
+  display: flex;
+  align-items: center;
+}
